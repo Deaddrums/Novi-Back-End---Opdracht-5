@@ -1,10 +1,10 @@
 
 
-public class Pokemon {
+public abstract class Pokemon {
 
     private final String name;
     private final int level;
-    private final int hp;
+    private  int hp;
     private final String food;
     private final String sound;
 
@@ -46,6 +46,7 @@ public class Pokemon {
 
     public void setHp(int hp){
         this.hp = Math.max(hp, 0);
+
     }
 
     public abstract String getType();

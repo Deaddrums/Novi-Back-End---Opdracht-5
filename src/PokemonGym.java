@@ -41,7 +41,7 @@ public interface PokemonGym {
             Pokemon pokemon,
             Pokemon gymPokemon,
             PokemonTrainer trainer,
-            PokemonGymOwner gym,
+            PokemonGymOwner gym
     );
 
 }
