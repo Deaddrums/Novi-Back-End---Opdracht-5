@@ -17,5 +17,5 @@ public class Variabelen {
     sound;/*""*/
     town;/*""*/
 
-    
+
 }
